@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+.container{
+    font-family: 'Raleway';
+ display: grid;
+ grid-template-columns: 20% 80%;
+ margin-top: 0px;
+}
+html{
+    background-color: #9BC0DD;
+}
+.nav-main{
+    position: fixed;
+    height: 100%;
+    z-index: 1;
+    padding: 0rem;
+    margin-left: -0.5em;
+    border-right: solid;
+    border-left: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+    background-color:  #2f76ac;
+    
+}
+.nav-main header{
+    text-align: center;
+    margin: 40px;
+}
+.nav-main ul{
+    padding: 10px 3rem;
+    position: relative;
+    height: 80%;
+    width: 100%;
+    margin-top: 00px;
+    margin-left:-20px;
+}
+.nav-main li{ 
+    border: 1px solid;
+    width: 100%;
+    height: 100%;
+    margin-left: -29px;
+}
+.nav-main a{
+    display: block;
+  padding: 15px 10px;
+  color: #020308;
+  text-decoration: none;
+  cursor: pointer;
+}
+.nav-main a:hover{
+    background-color: gold;
+}
+.main-section{
+    margin: 1em auto;
+    border-top: 1px solid;
+}
+.main-section p{
+    text-align: justify;
+}
+main{
+    
+    position: absolute;
+    margin-left: 210px;
+    padding: 20px;
+    height: 100%;
+    background-color: #9BC0DD;
+    
+}
+
+
+.main-section header{
+    font-size: 30px;
+}
+.center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+           
+}
+#navbar header{
+    font-size: 30px;
+}
+@media (max-height: 641px) {
+    main {
+      margin-left: 130px;
+    padding: 20px;
+    height: 100%;
+    font-size: 10px;
+    
+    }
+    img{
+        width: 120px;
+        height: 90px;
+    }
+    .nav-main{
+        background-color:blanchedalmond;
+        font-size: 11px; 
+        width:40%;
+    }
+    #navbar header{
+        font-size: 15px;
+    }
+    #navbar img{
+        width:100px;
+        height:100px;
+    }
+    .nav-main header{
+        text-align: center;
+        margin: 20px;
+    }
+}
+
